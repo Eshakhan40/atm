@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loginForm">
+        <input type="name" id="name" placeholder="Enter name">
+    
+        <input type="password" id="password" placeholder="Enter password">
+        <button id="login">Login</button>
+      </div>
+   
+  <div id="atmInterface" style="display: none;">
+    <button onclick="checkBalance()">Check Balance</button>
+    <button onclick="withdraw(100)">Withdraw $100</button>
+    <button onclick="deposit(100)">Deposit $100</button>
+  </div>
+
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>
